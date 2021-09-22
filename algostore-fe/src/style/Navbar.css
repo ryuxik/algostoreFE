@@ -1,0 +1,49 @@
+.nav {
+  background-color: #272727;
+  display: flex;
+  justify-content: flex-start;
+  height: 5vh;
+  align-items: center;
+  padding-left: 20%;
+}
+
+.nav-tab {
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 0px 30px 0px 10px;
+  color: #f2efea;
+  text-decoration: none !important;
+  height: 100%;
+}
+
+.active-tab {
+  color: #fe5f55;
+  box-shadow: 0px 2px #fe5f55;
+}
+
+.nav-tab:hover {
+  cursor: pointer;
+}
+
+#home-tab {
+  order: 0;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-right: 5%;
+}
+
+#insights-tab {
+  order: 2;
+}
+
+#explore-tab {
+  order: 1;
+}
+
+#list-tab {
+  order: 4;
+}
+
+#about-tab {
+  order: 5;
+}
