@@ -2,6 +2,7 @@
 
 # dependencies
 algostore-fe/node_modules
+algostore-flask-be/venv
 .pnp
 .pnp.js
 
@@ -13,10 +14,10 @@ algostore-fe/build
 
 # misc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.venv.local
+.venv.development.local
+.venv.test.local
+.venv.production.local
 .pyc
 
 npm-debug.log*
