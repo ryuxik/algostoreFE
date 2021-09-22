@@ -1,0 +1,40 @@
+.home-cta-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.home-cta-container a {
+  text-decoration: none;
+  outline: none;
+}
+
+.home-container {
+  display: flex;
+  width: 100vw;
+  height: 95vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.home-summary {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 5%;
+}
+
+.home-summary > h1 {
+  font-size: 4rem;
+}
+
+.home-summary > p {
+  font-size: 1.2rem;
+}
+
+.left-justify {
+  padding-left: 20%;
+}

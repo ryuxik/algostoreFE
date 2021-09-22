@@ -1,0 +1,25 @@
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #272727;
+  padding: 10px;
+  border-radius: 4px;
+  height: 20vh;
+  width: 20vw;
+  align-items: center;
+  margin-right: 30px;
+  margin-top: 30px;
+  filter: drop-shadow(0px 0px 2px #f2efea);
+  color: #f2efea;
+}
+
+.call-to-action:hover {
+  filter: brightness(130%) drop-shadow(0px 0px 5px #fe5f55);
+  color: #fe5f55;
+}
+
+.call-to-action-message {
+  font-size: 2rem;
+  font-weight: 300;
+}

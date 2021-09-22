@@ -1,0 +1,37 @@
+.algorithm-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 4px;
+  height: 15vh;
+  width: 15vw;
+  margin: 20px;
+  align-items: center;
+  background-color: #272727;
+  filter: drop-shadow(0px 0px 2px #f2efea);
+  color: #f2efea;
+}
+
+.algorithm-container:hover {
+  filter: brightness(130%) drop-shadow(0px 0px 5px #fe5f55);
+  cursor: pointer;
+}
+
+.algorithm-details {
+  color: #fe5f55;
+}
+
+.algorithm-name {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.algorithm-category {
+  color: #f2efea;
+  align-self: flex-start;
+  font-weight: lighter;
+}
+
+.algorithm-summary {
+  color: #f2efea;
+}
