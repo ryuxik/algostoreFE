@@ -1,0 +1,1 @@
+./create-lambda.sh -e bb -l bb -r arn:aws:iam::741116142930:role/basicTest -p algo_lambda.py -d Dockerfile
